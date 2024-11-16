@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.main {
+    background: rgb(241, 16, 46);
+    width: 100%;
+
+    /* height: 197%; */
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    padding: 1.5rem 0;
+    width: 100%;
+    border: 1px solid bisque;
+    border-style: outset;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+    align-items: center;
+}
+
+nav .navbar h1 {
+    color: white;
+    font-weight: 600;
+    font-size: small;
+
+}
+
+nav .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: small;
+}
+
+nav .navbar ul li {
+    margin: 0 1.5rem;
+
+}
+
+nav .navbar ul li:hover {
+    background-color: rgb(44, 36, 36);
+}
+
+nav .navbar ul li a {
+    color: white;
+}
+
+nav .navbar .nav-btn {
+    padding: 0.6rem 3rem;
+    /* height: 33px;
+    width: 12%; */
+    border-radius: 2rem;
+    background-color: white;
+}
+
+header {
+    padding: 2rem 16rem 0;
+
+
+}
+
+.head {
+    color: white;
+    justify-items: center;
+    font-weight: 100;
+}
+
+.head h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    font-weight: 300;
+}
+
+.head span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.head p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 9rem;
+    margin-bottom: 2rem;
+
+}
+
+.head .head-btn {
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+
+
+}
+
+.head ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.head ul li {
+    margin: 0 3rem 3rem 3rem;
+}
+
+img {
+    display: flex;
+    height: 497px;
+    width: 700px;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    box-sizing: content-box;
+
+}
+
+.part-2 {
+    text-align: center;
+    margin: 5rem 5rem;
+    padding: 4rem 0;
+    font-weight: 100;
+}
+
+.part-2 h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.part-2 span {
+    font-style: italic;
+    color: red;
+    font-weight: 400;
+}
+
+.part-2 p {
+    margin-bottom: 2rem;
+    padding: 0 23rem;
+}
+
+.p2-btn {
+    align-items: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.p2-btn .btn-a {
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    border-radius: 4rem;
+    background-color: red;
+    color: white;
+}
+
+.p2-btn .btn-b {
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+}
+
+
+
+
+/* .head .head-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 2rem;
+    but;
+    background-color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* header .content{
+    color: white;
+    text-align: center;
+}
+
+header .content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.content p{
+    font-size: small;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-right: 3rem;
+} */
